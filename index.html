@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sonia — Portfolio</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome for icons -->
+  <script src="https://kit.fontawesome.com/your_kit_id.js" crossorigin="anonymous" defer></script>
+  <!-- If you don't have a kit id, use the CDN below (simple icons) -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" /> -->
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header / Nav -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <div class="brand">AS</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero section">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <h1 class="hero-title">Hello, I'm <span>Ambati Sonia</span></h1>
+      <p class="hero-sub">Aspiring CyberSecurity student • Web & Cloud • AI Enthusiast </p>
+      <div class="hero-ctas">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-ghost">Contact Me</a>
+      </div>
+      <div class="scroll-hint">Scroll ↓</div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about section">
+    <div class="container grid about-grid">
+      <div class="about-text fade-in">
+        <h2>About Me</h2>
+        <p>I'm a 2nd year B.E. Cyber Security Student passionate about digital defense and ethical hacking, web development, cloud technologies, and AI-driven solutions. I build practical apps and love learning new tools and frameworks. </p>
+          <p>Currently building a Campus Connect app for students to share notes and collaborate.</p>
+
+          <p>My goal is to create secure, user-friendly applications that make a difference.</p>
+
+          <p>Developer and Medai member in ExploitX Club, Photographer and Videographer in Resolution- our college's Media club, leading national-level CTF events, tech symposiums, and cybersecurity workshops</p>
+
+          <ul class="about-highlights">
+          <li>📚 Strong fundamentals in data structures & algorithms</li>
+          <li>👩‍💻 Full-stack web development (MERN / Firebase)</li>
+          <li>🚀 Active on GitHub & building projects</li>
+        </ul>
+      </div>
+      <div class="about-photo fade-in">
+        <img src="images/Mypic.jpg" alt="Sonia profile picture" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="skills section">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <!-- Skill item -->
+        <div class="skill-card fade-in">
+          <div class="skill-head">
+            <i class="fab fa-html5 skill-icon" aria-hidden="true"></i>
+            <h3>HTML</h3>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" data-progress="90"></div>
+          </div>
+        </div>
+
+        <div class="skill-card fade-in">
+          <div class="skill-head">
+            <i class="fab fa-css3-alt skill-icon" aria-hidden="true"></i>
+            <h3>CSS</h3>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" data-progress="85"></div>
+          </div>
+        </div>
+
+        <div class="skill-card fade-in">
+          <div class="skill-head">
+            <i class="fab fa-js-square skill-icon" aria-hidden="true"></i>
+            <h3>JavaScript</h3>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" data-progress="80"></div>
+          </div>
+        </div>
+
+        <div class="skill-card fade-in">
+          <div class="skill-head">
+            <i class="fab fa-python skill-icon" aria-hidden="true"></i>
+            <h3>Python</h3>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" data-progress="85"></div>
+          </div>
+        </div>
+
+        <div class="skill-card fade-in">
+          <div class="skill-head">
+            <i class="fas fa-server skill-icon" aria-hidden="true"></i>
+            <h3>Java</h3>
+          </div>
+          <div class="progress">
+            <div class="progress-bar" data-progress="80"></div>
+          </div>
+        </div>
+
+
+  <!-- Projects -->
+  <section id="projects" class="projects section">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+
+      <div class="projects-grid">
+        <!-- Project Card 1 -->
+        <article class="project-card fade-in">
+          <div class="card-media">
+            <img src="images/project1.png" alt="Campus Connect screenshot">
+          </div>
+          <div class="card-body">
+            <h3>Campus Connect</h3>
+            <p>A student networking & resource sharing platform — auth, uploads, search, and discussion.</p>
+            <p class="tech-stack">
+              <span>React</span> • <span>Node.js</span> • <span>MongoDB</span> • <span>Firebase Storage</span>
+            </p>
+            <div class="card-actions">
+              <a href="#" class="btn btn-sm">Live Demo</a>
+              <a href="#" class="btn btn-outline btn-sm">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project Card 2 -->
+        <article class="project-card fade-in">
+          <div class="card-media">
+            <img src="images/project2.png" alt="Portfolio screenshot">
+          </div>
+          <div class="card-body">
+            <h3>Personal Portfolio</h3>
+            <p>This responsive portfolio built with HTML, CSS, and JavaScript. Hosted on GitHub Pages.</p>
+            <p class="tech-stack">
+              <span>HTML</span> • <span>CSS</span> • <span>JavaScript</span>
+            </p>
+            <div class="card-actions">
+              <a href="#" class="btn btn-sm">Live Demo</a>
+              <a href="#" class="btn btn-outline btn-sm">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Add more cards as needed -->
+      </div>
+    </div>
+  </section>
+
+          <!-- Project Card 3 -->
+        <article class="project-card fade-in">
+          <div class="card-media">
+            <img src="images/project3.png" alt="AgriBridge screenshot">
+          </div>
+          <div class="card-body">
+            <h3>Agri Bridge</h3>
+            <p>To create a platform that empowers farmers by directly connecting them with urban consumers, ensuring fair prices through multilingual, voice-enabled, and offline-friendly support</p>
+            <p class="tech-stack">
+              <span>React.js</span> • <span>Node.js</span> • <span>Express</span> • <span>MongoDB</span> • <span>FireBase</span>• <span>React Native</span>
+            </p>
+            <div class="card-actions">
+              <a href="#" class="btn btn-sm">Live Demo</a>
+              <a href="#" class="btn btn-outline btn-sm">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact section">
+    <div class="container contact-grid fade-in">
+      <div>
+        <h2>Contact Me</h2>
+        <p>Interested in collaborating? Reach out </p>
+        <p><strong>Email:</strong> <a href="mailto:ambatisonia.cse2024@citchennai.net">ambatisonia.cse2024@citchennai.net</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/SoniaAmbati" target="_blank">github.com/SoniaAmbati</a></p>
+      </div>
+      <div class="socials">
+        <a class="social" href="https://github.com/SoniaAmbati" target="_blank"><i class="fab fa-github"></i></a>
+        <a class="social" href="https://linkedin.com/in/ambatisonia" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a class="social" href="mailto:ambatisonia.cse2024@citchennai.net"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
