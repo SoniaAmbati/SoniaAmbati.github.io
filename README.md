@@ -10,7 +10,6 @@ Passionate cybersecurity student focused on building accessible, responsive, and
 
 - **Highlights:** Mobile-first UI, semantic markup for accessibility, optimized assets for fast load times.
 
-- **Contact:** See the live site or my GitHub profile for contact details.
 
 ---
 
